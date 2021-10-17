@@ -5,6 +5,6 @@ describe "caesar_cipher method" do
         expect(caesar_cipher("a", 2)).to eq("c")
     end
     it "translates" do
-        expect(caesar_cipher("What a string!", 5)).to eq("Bmfy f xywnsl!")
+        expect(caesar_cipher("What a string", 1)).to eq("Xibu b tusjoh")
     end
 end

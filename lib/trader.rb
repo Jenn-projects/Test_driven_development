@@ -10,7 +10,6 @@ la fonction day_trader doit renvoyer qu'il s'agit du deuxième jour à l'achat e
 N'oublie pas qu’on ne peut pas vendre avant d'avoir acheté…
 =end
 
-
 def day_trader(prices)
 	margin  = 0
 	purchase_day = 0
@@ -27,5 +26,3 @@ def day_trader(prices)
   end
   return total = [purchase_day, selling_day]
 end
-
-puts "#{day_trader([7, 3, 6, 2, 15, 8, 6, 122, 10])} voilà"
